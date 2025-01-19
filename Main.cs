@@ -14,7 +14,7 @@ public class Main : BloonsTD6Mod
     {
         displayName = "Multiplier",
         description = "The multiplier for all cash gained, cannot go above 1",
-        max = 1,
+        max = 100,
     };
     
     [HarmonyPatch(typeof(Simulation), nameof(Simulation.AddCash))]
